@@ -1,6 +1,6 @@
 <?php
-$to = "Адрес_получателя";
-$subject = "Тема_письма";
+$to = "serhiiherasymovych@gmail.com";
+$subject = "Темаписьма";
 $message = "Имя: ".$_POST['name']."
 E-mail: ".$_POST['e-mail']."
 Сообщение: ".$_POST['message'];
