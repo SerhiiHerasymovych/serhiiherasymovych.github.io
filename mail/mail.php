@@ -1,7 +1,7 @@
 <?php
 
-$recepient = "your@mail.ru";
-$siteName = "Ajax-форма";
+$recepient = "serhiiherasymovych@gmail.com";
+$siteName = "HTML-шаблон";
 
 $name = trim($_POST["name"]);
 $phone = trim($_POST["phone"]);
