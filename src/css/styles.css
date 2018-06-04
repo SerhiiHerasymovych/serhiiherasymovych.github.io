@@ -145,7 +145,41 @@ main {
 
 .app {
   max-width: 1360px;
-  margin: 0 auto; }
+  margin: 0 auto !important; }
+
+.heading {
+  font-size: 74px;
+  font-weight: 400;
+  color: #0a0a0a;
+  text-align: center; }
+  .heading span {
+    font-family: 'YesevaOne';
+    font-weight: 400; }
+
+h1.heading {
+  font-family: 'Oranienbaum'; }
+
+h2.heading {
+  font-size: 55px;
+  font-family: 'YesevaOne'; }
+  h2.heading span {
+    font-family: 'Oranienbaum'; }
+
+.button {
+  background: #d78296;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  width: 13.3em;
+  border-radius: 25px;
+  height: 50px;
+  border-style: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .header {
   position: fixed;
@@ -160,7 +194,8 @@ main {
   align-items: center;
   background: #fff;
   box-shadow: 0 7px 100px -10px rgba(0, 0, 0, 0.75);
-  padding: 0 8.12em; }
+  padding: 0 8.12em;
+  z-index: 99993; }
   @media (min-width: 992px) and (max-width: 1279px) {
     .header {
       padding: 0 1em; } }
@@ -208,19 +243,95 @@ main {
   background: url("../images/topBG.jpg") no-repeat;
   background-size: 100% 125%;
   height: 585px;
-  margin-top: 55px; }
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10em 0 7.77em 0; }
+
+.section__text {
+  padding-bottom: 2.77em; }
 
 .social-net {
   display: flex;
   justify-content: space-between; }
 
 .instagram {
-  margin-right: 0.44em; }
+  margin-right: .44em; }
 
 .facebook {
-  margin-right: 0.44em; }
+  margin-right: .44em; }
 
 .hidden {
   display: none; }
+
+.adds {
+  margin: 0 auto;
+  padding-bottom: 2.22em; }
+  .adds__text {
+    font-size: 23px;
+    font-family: 'SFUIDisplay';
+    font-weight: 400;
+    color: #d78296; }
+
+.reserv {
+  margin: 0 auto; }
+
+.specification {
+  max-width: 1055px;
+  margin: 0 auto;
+  padding-bottom: 6.38em; }
+  .specification-description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3.88em 0 6.94em 0; }
+
+.specification-description__caption {
+  font-size: 15px;
+  font-weight: 600;
+  color: #999999;
+  text-transform: uppercase;
+  margin-bottom: 3em; }
+
+.specification-description__intro {
+  font-size: 25px;
+  font-family: 'CharterItalic';
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.4;
+  margin-bottom: 2em; }
+
+.specification-description__text {
+  font-size: 18px;
+  font-family: 'Oranienbaum';
+  font-weight: 400;
+  color: #939393;
+  line-height: 1.4; }
+
+.halls {
+  display: flex;
+  position: relative; }
+  .halls__anet {
+    margin-right: 1.38em; }
+  .halls__sophie {
+    margin-left: 1.38em; }
+
+.dress {
+  height: 555px;
+  background: url("../images/dressBG.jpg") no-repeat;
+  background-size: 100% 160%;
+  box-shadow: inset 350px 0px 270px -27px #fdfdfd;
+  position: relative; }
+
+.dress-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 36%;
+  left: 14%; }
+  .dress-item__heading {
+    margin-bottom: .9em; }
 
 /*# sourceMappingURL=styles.css.map */
