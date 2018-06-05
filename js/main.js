@@ -1,1 +1,1 @@
-"use strict";$(document).ready(function(){$("[data-fancybox]").fancybox({protect:!0,buttons:!1,speed:300,loop:!0,smallBtn:"auto"})});
+"use strict";$(document).ready(function(){$("[data-fancybox]").fancybox({protect:!0,buttons:!1,speed:300,loop:!0,smallBtn:"auto",infobar:!1})});
