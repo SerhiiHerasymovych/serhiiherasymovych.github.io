@@ -10,7 +10,7 @@ $CONFIG = array(
 	// -------------------------------------------------------------
 
 	// Instagram login
-	'LOGIN' => '380661525896',
+	'LOGIN' => 'pandashop2943',
 
 	// Get pictures from around the world by hashtags.
 	// Separate hashtags by a comma. For example: girl, man
