@@ -10,7 +10,7 @@ $CONFIG = array(
 	// -------------------------------------------------------------
 
 	// Instagram login
-	'LOGIN' => 'fotokto_ru',
+	'LOGIN' => '380661525896',
 
 	// Get pictures from around the world by hashtags.
 	// Separate hashtags by a comma. For example: girl, man
@@ -22,7 +22,7 @@ $CONFIG = array(
 
 	// Access token granted to you by an Instagram app.
 	// If you use it, the widget will start sending requests through the official API (https://www.instagram.com/developer/)
-	'ACCESS_TOKEN' => '',
+	'ACCESS_TOKEN' => '6724330664.e04378d.49f580df9e9e4402afde433abc4e0ed1',
 
 	// Login and password of an Instagram account for authorization.
 	// Authorization is necessary for alternative methods of obtaining data and provides more stability when you using the undocumented API
